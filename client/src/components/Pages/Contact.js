@@ -159,13 +159,7 @@ const Contact = () => {
           <div className="col-lg-6 align-items-center d-flex justify-content-center" style={{width:'1200px',margin:'0'}}>
             <MDBRow className="w-100" >
               <MDBCol lg="6" className="my-4">
-                <iframe
-                  src="https://maps.google.com/maps?width=600px&amp;height=575&amp;hl=en&amp;q=St-4, Sector 17-D, NH 5, Karachi, Karachi City, Sindh&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                  className="w-250"
-                  height="600"
-                  width="800"
-                  loading="lazy"
-                ></iframe>
+               
               </MDBCol>
             </MDBRow>
           </div>
