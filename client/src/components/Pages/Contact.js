@@ -31,9 +31,6 @@ const Contact = () => {
         </div>
 
         <div className="row">
-          <div className="col-lg-6" style={{margin:'0'}}>
-            <img src={require('../../images/contact.jpg')} style={{marginTop:'50px',marginLeft:'20px',marginRight:'0',borderRadius:'20px'}} width="850" height="550" />
-          </div>
 
           <div className="col-lg-6" style={{ paddingTop: "150px" }}>
             <div className="row">
@@ -44,7 +41,7 @@ const Contact = () => {
                 {" "}
                 <b style={{fontSize:'25px'}}>Our Address</b>
                 <br />
-                <p className="grey-text" style={{fontSize:'20px'}}>St-4, Sector 17-D, NH 5, Karachi, Sindh</p>
+           
               </div>
             </div>
             <br />
@@ -56,7 +53,7 @@ const Contact = () => {
                 {" "}
                 <b style={{fontSize:'25px'}}>Phone</b>
                 <br />
-                <p className="grey-text" style={{fontSize:'20px'}}>+923312613326</p>
+                <p className="grey-text" style={{fontSize:'20px'}}>6380169183</p>
               </div>
             </div>
             <br />
