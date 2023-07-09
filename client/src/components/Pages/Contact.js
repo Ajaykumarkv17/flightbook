@@ -156,10 +156,6 @@ const Contact = () => {
           <div className="col-lg-6 align-items-center d-flex justify-content-center" style={{width:'1200px',margin:'0'}}>
             <MDBRow className="w-100" >
               <MDBCol lg="6" className="my-4">
-<<<<<<< HEAD
-=======
-               
->>>>>>> 594c9215638dec4679d7d545c6b8bc10e35c3067
               </MDBCol>
             </MDBRow>
           </div>
