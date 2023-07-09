@@ -9,7 +9,7 @@ const Booking = () => {
   const [data,setData]=useState([]);
   
   const loadData =async()=>{
-    const response= await Axios.get('http://localhost:5000/booking/api/get');
+    const response= await Axios.get('https://flightapp-fq75.onrender.com/booking/api/get');
     setData(response.data);
   }
 

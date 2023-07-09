@@ -8,7 +8,7 @@ const Airport = () => {
   const [data,setData]=useState([]);
   
   const loadData =async()=>{
-    const response= await Axios.get('http://localhost:5000/airport/api/get');
+    const response= await Axios.get('https://flightapp-fq75.onrender.com/airport/api/get');
     setData(response.data);
   }
 

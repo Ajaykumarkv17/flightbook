@@ -8,7 +8,7 @@ const ViewTicket = () => {
   const {id}=useParams();
   useEffect(() => {
     Axios
-      .get(`http://localhost:5000/ticket/api/get/${id}`)
+      .get(`https://flightapp-fq75.onrender.com/ticket/api/get/${id}`)
       .then((resp) => setUser({ ...resp.data[0] }));
   }, [id]);
   return (

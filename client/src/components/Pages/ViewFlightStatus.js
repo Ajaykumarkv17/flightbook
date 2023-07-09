@@ -8,7 +8,7 @@ const ViewFlightStatus = () => {
   const {id}=useParams();
   useEffect(() => {
     Axios
-      .get(`http://localhost:5000/flightStatus/api/get/${id}`)
+      .get(`https://flightapp-fq75.onrender.com/flightStatus/api/get/${id}`)
       .then((resp) => setUser({ ...resp.data[0] }));
   }, [id]);
   return (

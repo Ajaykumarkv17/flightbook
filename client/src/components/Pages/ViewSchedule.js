@@ -8,7 +8,7 @@ const ViewSchedule = () => {
   const {id}=useParams();
   useEffect(() => {
     Axios
-      .get(`http://localhost:5000/schedule/api/get/${id}`)
+      .get(`https://flightapp-fq75.onrender.com/schedule/api/get/${id}`)
       .then((resp) => setUser({ ...resp.data[0] }));
   }, [id]);
   return (

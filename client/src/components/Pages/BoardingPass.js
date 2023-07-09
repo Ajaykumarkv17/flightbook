@@ -8,7 +8,7 @@ const BoardingPass = () => {
   const [user, setUser] = useState({});
   const history = useHistory();
   useEffect(() => {
-    Axios.get(`http://localhost:5000/showPass/${id}`).then((resp) =>
+    Axios.get(`https://flightapp-fq75.onrender.com/showPass/${id}`).then((resp) =>
       setData({ ...resp.data[0] })
     );
   }, []);

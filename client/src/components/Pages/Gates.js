@@ -8,7 +8,7 @@ const Gates = () => {
   const [data,setData]=useState([]);
   
   const loadData =async()=>{
-    const response= await Axios.get('http://localhost:5000/gates/api/get');
+    const response= await Axios.get('https://flightapp-fq75.onrender.com/gates/api/get');
     setData(response.data);
   }
 

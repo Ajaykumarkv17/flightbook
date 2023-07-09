@@ -18,7 +18,7 @@ const Signin = () => {
 
   const history = useHistory();
   const loadData = async () => {
-    const response = await Axios.post("http://localhost:5000/getcustomerlogin",{
+    const response = await Axios.post("https://flightapp-fq75.onrender.com/getcustomerlogin",{
       email: emailLogin,
       password: passwordLogin,
     });
@@ -33,7 +33,7 @@ const Signin = () => {
   const Login = (event) => {
     event.preventDefault();
     loadData();
-    Axios.post("http://localhost:5000/customerlogin", {
+    Axios.post("https://flightapp-fq75.onrender.com/customerlogin", {
       email: emailLogin,
       password: passwordLogin,
     }).then((response) => {

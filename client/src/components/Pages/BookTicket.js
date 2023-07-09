@@ -31,7 +31,7 @@ const BookTicket = () => {
   // handle submit
   const onSubmit = (data) => {
     console.log(data.departure);
-    Axios.post("http://localhost:5000/BookTicket", {
+    Axios.post("https://flightapp-fq75.onrender.com/BookTicket", {
       departure: data.departure,
       arrival: data.arrival,
       departureDate: data.departureDate,
